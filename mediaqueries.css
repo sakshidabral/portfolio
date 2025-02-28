@@ -96,3 +96,10 @@
         text-align: justify;
     }
   }
+
+@media screen and (max-width: 768px) {
+    html, body {
+        overflow: hidden;
+        scroll-behavior: none;
+    }
+}
